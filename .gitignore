@@ -1,0 +1,13 @@
+.htaccess
+/*.php
+vendor/
+.idea
+wp-admin/
+wp-includes/
+wp-content/plugins
+wp-content/upgrade
+wp-content/uploads
+wp-content/languages
+LICENSE
+/*.txt
+readme.html

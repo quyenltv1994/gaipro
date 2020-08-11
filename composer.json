@@ -1,0 +1,46 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "extra": {
+    "installer-paths": {
+      "wp-content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "wp-content/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "wpackagist-plugin/wordpress-seo": "dev-trunk",
+    "wpackagist-plugin/custom-post-type-ui": "dev-trunk",
+    "wpackagist-plugin/advanced-custom-fields-nav-menu-field": "dev-trunk",
+    "wpackagist-plugin/contact-form-7": "dev-trunk",
+    "wpackagist-plugin/disable-gutenberg": "dev-trunk",
+    "wpackagist-plugin/duplicate-post": "dev-trunk",
+    "wpackagist-plugin/simple-page-ordering": "dev-trunk",
+    "wpackagist-plugin/simple-history": "dev-trunk",
+    "wpackagist-plugin/crop-thumbnails": "dev-trunk",
+    "wpackagist-plugin/regenerate-thumbnails": "dev-trunk",
+    "wpackagist-plugin/wp-mail-smtp": "dev-trunk",
+    "wpackagist-plugin/fb-messenger-chat-for-website": "dev-trunk",
+    "wpackagist-plugin/wp-migrate-db": "dev-trunk",
+    "wpackagist-plugin/sassy-social-share": "dev-trunk",
+    "wpackagist-plugin/fast-velocity-minify": "dev-trunk",
+    "wpackagist-plugin/wp-mail-logging": "dev-trunk",
+    "wpackagist-plugin/contact-form-cfdb7": "dev-trunk",
+    "wpackagist-plugin/cf7-google-sheets-connector": "dev-trunk",
+    "wpackagist-plugin/user-role-editor": "dev-trunk",
+    "wpackagist-plugin/adminimize": "dev-trunk",
+    "wpackagist-plugin/facebook-messenger-customer-chat": "dev-trunk",
+    "wpackagist-plugin/pdf-embedder": "dev-trunk",
+    "wpackagist-plugin/change-wp-admin-login": "dev-trunk",
+    "wpackagist-plugin/google-analytics-for-wordpress": "dev-trunk",
+    "wpackagist-plugin/loco-translate": "dev-trunk"
+  }
+}
