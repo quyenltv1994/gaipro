@@ -45,10 +45,6 @@
                 <div class="header">
                     <?php get_template_part('template-parts/components/logo'); ?>
                     <?php get_template_part('template-parts/components/main-menu'); ?>
-                    <ul class="header__social">
-                        <li><a href="https://www.facebook.com/truongmamnonmonkids/" class="facebook__social" target="_blank" title="<?= __('Facebook của trường Monkids', DOMAIN) ?>"><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href="https://www.youtube.com/channel/UCyUy4I5ehAocUX0OpG8kj4Q/videos" class="youtube__social" target="_blank" title="<?= __('Youtube của trường Monkids', DOMAIN) ?>"><i class="fab fa-youtube"></i></a></li>
-                    </ul>
                     <div class="button__menu-container">
                         <button class="button__menu-open">
                             <span></span>

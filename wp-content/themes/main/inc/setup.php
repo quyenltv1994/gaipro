@@ -47,9 +47,9 @@ function default_setup(){
     add_theme_support( 'title-tag' );
 
     // Add custom image size.
-    add_image_size( 'hero-slider', 500, 500, true );
-    add_image_size( 'service-thumb', 480, 480, true );
-    add_image_size( 'post-image-thumbnail', 220, 150, true );
-    add_image_size( 'gallery', 346, 230, true );
+//    add_image_size( 'hero-slider', 500, 500, true );
+//    add_image_size( 'service-thumb', 480, 480, true );
+//    add_image_size( 'post-image-thumbnail', 220, 150, true );
+//    add_image_size( 'gallery', 346, 230, true );
 }
 add_action('init', 'default_setup');

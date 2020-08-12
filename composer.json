@@ -41,6 +41,7 @@
     "wpackagist-plugin/pdf-embedder": "dev-trunk",
     "wpackagist-plugin/change-wp-admin-login": "dev-trunk",
     "wpackagist-plugin/google-analytics-for-wordpress": "dev-trunk",
-    "wpackagist-plugin/loco-translate": "dev-trunk"
+    "wpackagist-plugin/loco-translate": "dev-trunk",
+    "duplicate-post": "dev-trunk"
   }
 }

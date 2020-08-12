@@ -6,12 +6,12 @@ $logo = get_field('header_logo', 'option');
         if(is_front_page()){
     ?>
             <h1>
-                <a href="<?=home_url()?>"><img src="<?=$logo['url']?>" alt="Trường mầm non chất lượng cao Monkids"></a>
+                <a href="<?=home_url()?>"><img src="<?=$logo['url']?>" alt="Gái Pro - Nguồn cảm hứng vô tận"></a>
             </h1>
     <?php
         }else {
             ?>
-            <a href="<?=home_url()?>"><img src="<?=$logo['url']?>" alt="Trường mầm non chất lượng cao Monkids"></a>
+            <a href="<?=home_url()?>"><img src="<?=$logo['url']?>" alt="Gái Pro - Nguồn cảm hứng vô tận"></a>
             <?php
         }
     ?>
