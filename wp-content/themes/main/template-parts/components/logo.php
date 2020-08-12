@@ -9,7 +9,7 @@ $logo = get_field('header_logo', 'option');
                 <a href="<?=home_url()?>"><img src="<?=$logo['url']?>" alt="Gái Pro - Nguồn cảm hứng vô tận"></a>
             </h1>
     <?php
-        }else {
+        }else { 
             ?>
             <a href="<?=home_url()?>"><img src="<?=$logo['url']?>" alt="Gái Pro - Nguồn cảm hứng vô tận"></a>
             <?php
