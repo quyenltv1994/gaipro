@@ -6518,11 +6518,6 @@ if ( typeof define === 'function' && define.amd ) {
         var w = jQuery(window).width();
         var h = jQuery(window).height();
 
-        $('.flexslider').flexslider({
-            animation: "fade",
-            prevText: "",
-            nextText: "",
-        });
         if($(window).width() > 1023){
             $(window).scroll(function(){
                 if($(window).scrollTop() > 0){

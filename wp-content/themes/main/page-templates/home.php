@@ -5,12 +5,8 @@
 get_header();
 ?>
     <!--Start Pull HTML here-->
-    <?php get_template_part('template-parts/blocks/hero-slider'); ?>
-    <?php get_template_part('template-parts/blocks/home-education'); ?>
-    <?php get_template_part('template-parts/blocks/home-grograme'); ?>
-    <?php get_template_part('template-parts/blocks/home-learning'); ?>
-    <?php get_template_part('template-parts/blocks/home-development'); ?>
-    <?php get_template_part('template-parts/blocks/home-mission'); ?>
-    <?php get_template_part('template-parts/blocks/home-gallery'); ?>
+    <?php get_template_part('template-parts/blocks/hot'); ?>
+    <?php get_template_part('template-parts/blocks/saigon'); ?>
+    <?php get_template_part('template-parts/blocks/hanoi'); ?>
     <!--END  Pull HTML here-->
 <?php get_footer();
