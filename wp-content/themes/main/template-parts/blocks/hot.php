@@ -17,6 +17,8 @@
 				<?php
 					if($query->have_posts()):
 						while($query->have_posts()): $query->the_post();
+						$name = get_field('nghe_danh');
+						$birthDay = get_field('sinh_nam');
 						$price = get_field('gia_di_khach');
 						$address = get_field('address');
 						$image = get_the_post_thumbnail_url(get_the_ID(), 'product_thumb');
@@ -28,7 +30,7 @@
 							<img src="<?=$image?>" alt="<?php the_title(); ?>">
 						</div>
 						<div class="info">
-							<h3><?php the_title(); ?></h3>
+                            <h3><?=$name?> - <?=$birthDay?></h3>
 							<p class="price"><span><i class="fas fa-money-bill-wave"></i></span><?=$price?></p>
 							<p class="address"><span><i class="fas fa-street-view"></i></span><?=$address?></p>
 						</div>
