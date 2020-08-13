@@ -25,7 +25,7 @@
 					<div class="product__item--main">
 						<a href="<?php the_permalink(); ?>"></a>
 						<div class="img">
-							<img src="<?=$image?>>" alt="<?php the_title(); ?>">
+							<img src="<?=$image?>" alt="<?php the_title(); ?>">
 						</div>
 						<div class="info">
 							<h3><?php the_title(); ?></h3>
