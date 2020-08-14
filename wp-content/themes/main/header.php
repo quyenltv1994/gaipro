@@ -5,6 +5,13 @@
 	<meta name="format-detection" content="telephone=no">
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <?php
+        if(is_home()):
+    ?>
+    <meta name="keywords" content="gai goi,gai goi cao cap,gai lam tien,gai goi sinh vien,gai goi zalo,gaigoi com,gai bao,gaigoi net,tim gai goi,gaigoicaocap,tim gai,gai goi online,dien dan gai goi,gai goi tren zalo,goi gai,goi hang,goigai,sdt gai goi,gai goi qua dem,tim gai qua dem,gai di khach,gai goi viet,gaigoi3mien,lam tien,gai goi uy tin,so dien thoai gai di khach,tim gai choi,gai goi 3 mien,gai goi moi,so dien thoai gai goi,dich vu gai goi sinh vien,gai goi 24h,gai goi hang,gia goi,goi goi,sdt gai,gai goi sinh vien cao cap,gai goi thanh pho,so dien thoai gai,www gaigoi com,gai goi bac nam,gai goi khu vuc,gai gou,so dien thoai ca ve,so dt gai goi,so dien thoai cave,gai goi gia,gsi goi,gai hoi,sinh vien gai goi,www gai goi,dia chi gai goi,gai goi ba mien,gai gpi,tim gai di khach,gai goi co hinh,goi hang com,choi gai o dau,gai goi cao,gai goi cao cap sinh vien,gai goi sdt,giai goi,tim sdt gai goi,xem hang gai goi,gai gu rau tuoi,gaigoi co,gai di khach san,sdt gai goi sinh vien,tinh1h net,dien thoai gai goi,gai goi lon tuoi,gai goi co sdt,s">
+    <?php
+        endif;
+    ?>
     <meta name="google-site-verification" content="VOUiVRoz3RniovMtO1_I9XEci-XfmqaMcglM7hC-DCA" />
 	<link rel="apple-touch-icon" sizes="180x180" href="<?= ASSETS_PATH ?>/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="<?= ASSETS_PATH ?>/favicon/favicon-32x32.png">
