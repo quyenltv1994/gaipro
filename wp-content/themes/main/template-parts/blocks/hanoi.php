@@ -19,10 +19,10 @@
 
 	$query = new WP_Query($args);
 ?>
-<div class="products__lists hanoi">
+<div class="products__lists">
 	<div class="container">
 		<div class="products__lists--container">
-			<h2 class="title"><?=$title?></h2>
+			<h2 class="title"><span><?=$title?></span></h2>
 			<div class="row">
 				<?php
 					if($query->have_posts()):
