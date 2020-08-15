@@ -4,11 +4,11 @@
 ?>
 <div class="container">
 	<div class="gai__main">
-		<h1><?php the_title($post->ID); ?></h1>
+		<h1><?php echo get_the_title($post->ID); ?></h1>
 		<div class="content">
 			<div class="top">
 				<div class="image">
-					<img src="<?=$img?>" alt="<?php the_title($post->ID); ?>">
+					<img src="<?=$img?>" alt="<?php the_title($post->ID); ?>"> 
 				</div>
 				<div class="info">
 					<h2>Thông tin cơ bản</h2>
