@@ -8,7 +8,7 @@
 		<div class="content">
 			<div class="top">
 				<div class="image">
-					<img src="<?=$img?>" alt="<?php the_title($post->ID); ?>"> 
+					<img src="<?=$img?>" alt="<?php the_title($post->ID); ?>">
 				</div>
 				<div class="info">
 					<h2>Thông tin cơ bản</h2>
