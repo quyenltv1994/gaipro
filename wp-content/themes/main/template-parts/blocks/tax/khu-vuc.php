@@ -21,7 +21,6 @@ $query = new WP_Query($args);
 <div class="products__lists">
 	<div class="container">
 		<div class="products__lists--container">
-			<h1 class="title"><?=__('Gái gọi ', DOMAIN)?><?=$title?></h1>
 			<div class="row">
 				<?php
 				if($query->have_posts()):

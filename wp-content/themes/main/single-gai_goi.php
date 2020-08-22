@@ -35,7 +35,7 @@
 						<?php
 						if($gioDiKhach):
 							?>
-                            <p><span>Giá đi khách: </span><span><?=$gioDiKhach?></span></p>
+                            <p><span>Giá đi khách: </span><span><?=$gioDiKhach?>k</span></p>
 						<?php
 						endif;
 						?>
@@ -43,7 +43,7 @@
 						<?php
 						if($phone):
 							?>
-                            <p><span>Số điện thoại: </span><span><?=$phone?></span></p>
+                            <p><span>Số điện thoại: </span><span><a href="tel:<?=$phone?>"></a><?=$phone?></span></p>
 						<?php
 						endif;
 						?>
