@@ -8,6 +8,8 @@
         'post_type' => 'gai_goi',
         'posts_per_page' => $sgNumber,
         'post_status' => 'publish',
+	    'orderby'  => array( 'meta_value_num' => 'DESC', 'date' => 'DESC' ),
+	    'meta_key' => 'status',
         'tax_query' => array(
             array(
                 'taxonomy' => 'khu_vuc',
@@ -32,10 +34,23 @@
 						$price = get_field('gia_di_khach');
 						$address = get_field('address');
 						$image = get_the_post_thumbnail_url(get_the_ID(), 'product_thumb');
+						$status = get_field('status');
 				?>
 				<div class="product__item">
 					<div class="product__item--main">
+                        <?php
+                            if($status):
+                        ?>
                         <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                        <?php
+                        else:
+                        ?>
+                            <div class="disable">
+                                <p>Tạm nghỉ</p>
+                            </div>
+                        <?php
+                        endif;
+                        ?>
 						<div class="img">
 							<img src="<?=$image?>" alt="<?php the_title(); ?>">
 						</div>
